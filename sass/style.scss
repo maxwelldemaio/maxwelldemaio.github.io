@@ -1,0 +1,47 @@
+// Color palette documentation at https://colorhunt.co/palette/22272
+$color0: #f9f7f7;
+$color1: #dbe2ef;
+$color2: #3f72af;
+$color3: #112d4e;
+
+// Content class to be inherited across pages
+%content {
+    max-width: 700px;
+    margin: auto;
+}
+
+body {
+    background-color: $color0 !important;
+    color: $color3 !important;
+    padding: 20px !important;
+}
+
+#head {
+    text-align: center;
+}
+
+#home {
+    @extend %content;
+    padding: 10px;
+}
+
+#projects, #languages {
+    @extend %content;
+}
+
+// Add clouds before list item links
+li>a::before {
+    content: "\2601" !important;
+    font-weight: bold !important;
+}
+
+// Style languages list hover
+.list-group-mine .list-group-item:hover {
+  background-color: $color1;
+}
+
+// Style other pages' titles
+.heading-mine {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

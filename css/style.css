@@ -1,0 +1,27 @@
+#home, #projects, #languages {
+  max-width: 700px;
+  margin: auto; }
+
+body {
+  background-color: #f9f7f7 !important;
+  color: #112d4e !important;
+  padding: 20px !important; }
+
+#head {
+  text-align: center; }
+
+#home {
+  padding: 10px; }
+
+li > a::before {
+  content: "\2601" !important;
+  font-weight: bold !important; }
+
+.list-group-mine .list-group-item:hover {
+  background-color: #dbe2ef; }
+
+.heading-mine {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/*# sourceMappingURL=style.css.map */
