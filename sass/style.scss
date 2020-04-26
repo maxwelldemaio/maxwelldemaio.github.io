@@ -22,7 +22,7 @@ body {
 
 #home {
     @extend %content;
-    padding: 10px;
+    margin-top: 10px;
 }
 
 #projects, #languages {
@@ -34,7 +34,7 @@ body {
   background-color: $color1;
 }
 
-// Style other pages' titles
+// Style project/language headers
 .heading-mine {
     padding-top: 10px;
     padding-bottom: 10px;
