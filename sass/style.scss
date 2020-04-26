@@ -29,12 +29,6 @@ body {
     @extend %content;
 }
 
-// Add clouds before list item links
-li>a::before {
-    content: "\2601" !important;
-    font-weight: bold !important;
-}
-
 // Style languages list hover
 .list-group-mine .list-group-item:hover {
   background-color: $color1;
