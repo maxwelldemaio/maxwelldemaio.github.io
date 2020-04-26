@@ -29,6 +29,12 @@ body {
     @extend %content;
 }
 
+// Style profile picture
+#profile-image {
+    width: 230px;
+    margin-bottom: 10px;
+}
+
 // Style languages list hover
 .list-group-mine .list-group-item:hover {
   background-color: $color1;

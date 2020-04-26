@@ -13,6 +13,10 @@ body {
 #home {
   margin-top: 10px; }
 
+#profile-image {
+  width: 230px;
+  margin-bottom: 10px; }
+
 .list-group-mine .list-group-item:hover {
   background-color: #dbe2ef; }
 
