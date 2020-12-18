@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Max DeMaio - Language</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/myStyles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <meta name="description"
+        content="Maxwell DeMaio's personal website. Here you can find out more about me, the projects I have completed, and the languages I speak/use." />
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Features</a>
+                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link disabled" href="#">Disabled</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h2>My Languages</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            My native language is English, I speak French with full professional proficiency,
+            and Italian with limited working proficiency.
+        </p>
+
+        <h2>My Duolingo Language XP</h2>
+    </main>
+    
+    <!--Add Chart.js-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <!--Obtain live personal Duolingo language data-->
+    <script>
+        // Here I'd make an AJAX call to the backend instead to obtain the data
+        duoInfo = [{ "streak": 3, "language_string": "Italian", "points": 11593, "learning": true, "language": "it", "level": 17, "current_learning": false, "sentences_translated": 0, "to_next_level": 407 },
+        { "streak": 3, "language_string": "Russian", "points": 2512, "learning": true, "language": "ru", "level": 10, "current_learning": false, "sentences_translated": 0, "to_next_level": 488 },
+        { "streak": 3, "language_string": "French", "points": 6354, "learning": true, "language": "fr", "level": 14, "current_learning": false, "sentences_translated": 0, "to_next_level": 1146 },
+        { "streak": 3, "language_string": "Korean", "points": 68, "learning": true, "language": "ko", "level": 2, "current_learning": true, "sentences_translated": 0, "to_next_level": 52 }]
+
+        var myBarChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                datasets: [{
+                    barPercentage: 0.5,
+                    barThickness: 6,
+                    maxBarThickness: 8,
+                    minBarLength: 2,
+                    data: [10, 20, 30, 40, 50, 60, 70]}],
+                },
+                options: options
+            });
+    </script>
+</body>
+</html>
