@@ -1,4 +1,8 @@
 main {
     margin-top: 25px;
-    padding: 25px;
+    padding-bottom: 25px;
+}
+
+.myFeature {
+    margin-top: 40px;
 }

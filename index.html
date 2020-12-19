@@ -9,26 +9,40 @@
     </head>
     <body>
 
-        <div id="head">
+        <div>
+            <nav class="navbar sticky-top navbar-light bg-light navbar-expand-lg ">
+                <a class="navbar-brand" href="#">Maxwell DeMaio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="software.html">Software</a>
+                        </li>
+                    </ul>
+                    <a class="nav-text" href="mailto:maxwell.demaio@gmail.com">Contact</a>
+                </div>
+            </nav>
 
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <div class="carousel-caption text-left">
+                            <h1>Maxwell DeMaio.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        </div>
                         <img class="d-block w-100" src="static/max_demaio_cover.jpg" alt="First slide">
                     </div>
             </div>
-
-            <h1>Maxwell DeMaio</h1>
-
-            <div class="containter text-center">
-                <a class="btn btn-outline-primary" href="index.html" role="button">Home</a>
-                <a class="btn btn-outline-primary" href="projects.html" role="button">Software</a>
-                <a class="btn btn-outline-primary" href="languages.html" role="button">Language</a>
-            </div>
-
         </div>
 
-        <div id="home">
+        <main>
 
             <div class="container">
 
@@ -43,11 +57,6 @@
                 Feel free to reach out and contact me at any of the links below.
             </p>
 
-            <h2>Contact Me</h2>
-            <ul>
-                <li>You can reach me at <a href="mailto:maxwell.demaio@gmail.com">maxwell.demaio@gmail.com</a>.</li>
-            </ul>
-
             <h2>Links</h2>
             <ul>
                 <li><a href="https://github.com/maxwelldemaio">GitHub</a></li>
@@ -58,8 +67,17 @@
 
             </div>
 
-        </div>
-
+        </main>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     </body>
 
 </html>
