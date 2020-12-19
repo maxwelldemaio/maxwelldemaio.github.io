@@ -4,5 +4,9 @@ main {
 }
 
 .myFeature {
-    margin-top: 40px;
+    margin-top: 30px;
+}
+
+mySubtitle {
+    font-family: "Gravity-Regular";
 }
