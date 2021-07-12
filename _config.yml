@@ -1,1 +1,4 @@
 # Build settings
+
+plugins:
+  - jekyll-seo-tag
