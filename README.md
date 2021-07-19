@@ -5,6 +5,7 @@
 Welcome to my static GitHub webpage. Below, please find my personal links where you can find me online:
 
 - [My website](https://maxdemaio.herokuapp.com/)
+- [Polywork](https://www.polywork.com/maxwelldemaio)
 - [GitHub](https://github.com/maxwelldemaio)
 - [LinkedIn](https://www.linkedin.com/in/maxwell-demaio)
 - [Twitter](https://twitter.com/maxwelldemaio)
